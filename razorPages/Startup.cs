@@ -32,7 +32,7 @@ namespace razorPages
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages(); // adding to run razorpages
-                endpoints.MapGet("/", async context => { await context.Response.WriteAsync("Hello World!"); });
+                // endpoints.MapGet("/", async context => { await context.Response.WriteAsync("Hello World!"); });
             });
         }
     }
