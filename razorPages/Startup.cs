@@ -27,8 +27,6 @@ namespace razorPages
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseStaticFiles(); //middleware for static files 
-            
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
