@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "razorPages", "razorPages\razorPages.csproj", "{0C3EF5BC-CCF0-4404-BEB3-9BCA5B92695B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "razor2", "razor2\razor2.csproj", "{5F6D3DFA-F73C-4A27-8DD8-D4446DC92991}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{0C3EF5BC-CCF0-4404-BEB3-9BCA5B92695B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C3EF5BC-CCF0-4404-BEB3-9BCA5B92695B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C3EF5BC-CCF0-4404-BEB3-9BCA5B92695B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F6D3DFA-F73C-4A27-8DD8-D4446DC92991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F6D3DFA-F73C-4A27-8DD8-D4446DC92991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F6D3DFA-F73C-4A27-8DD8-D4446DC92991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F6D3DFA-F73C-4A27-8DD8-D4446DC92991}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

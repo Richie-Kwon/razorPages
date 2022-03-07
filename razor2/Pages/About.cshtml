@@ -1,0 +1,25 @@
+@page "{id}"
+@model razor2.Pages.about
+
+@{
+    Layout = null;
+    string dog = "Golden doodle";
+    var id = int.Parse((string)RouteData.Values["id"]);
+    
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Blog details - @id</title>
+</head>
+<body>
+<div>
+@{if(User.Identity.IsAuthenticated)  
+    {<h1>이예라를 이겨라 1, 2, 3! @dog</h1>}
+    else{}
+  }  
+</div>
+</body> 
+</html> 
