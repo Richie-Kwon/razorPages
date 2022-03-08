@@ -1,8 +1,9 @@
 @page "{id}"
 @model razor2.Pages.about
+@addTagHelper *, Microsoft.aspnetcore.mvc.taghelpers
 
 @{
-    Layout = null;
+    Layout = "Shared/_Layout";
     string dog = "Golden doodle";
     var id = int.Parse((string)RouteData.Values["id"]);
     
