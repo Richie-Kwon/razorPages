@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "razorPages", "razorPages\ra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "razor2", "razor2\razor2.csproj", "{5F6D3DFA-F73C-4A27-8DD8-D4446DC92991}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numerable", "Numerable\Numerable.csproj", "{B632B488-86F8-4ADB-8D6A-E0D86EE12925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "numeratorPractice", "numeratorPractice\numeratorPractice.csproj", "{8E6C5644-3B86-4C7A-8B41-E1AD2AAF6166}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{5F6D3DFA-F73C-4A27-8DD8-D4446DC92991}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F6D3DFA-F73C-4A27-8DD8-D4446DC92991}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F6D3DFA-F73C-4A27-8DD8-D4446DC92991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B632B488-86F8-4ADB-8D6A-E0D86EE12925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B632B488-86F8-4ADB-8D6A-E0D86EE12925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B632B488-86F8-4ADB-8D6A-E0D86EE12925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B632B488-86F8-4ADB-8D6A-E0D86EE12925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E6C5644-3B86-4C7A-8B41-E1AD2AAF6166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E6C5644-3B86-4C7A-8B41-E1AD2AAF6166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E6C5644-3B86-4C7A-8B41-E1AD2AAF6166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E6C5644-3B86-4C7A-8B41-E1AD2AAF6166}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

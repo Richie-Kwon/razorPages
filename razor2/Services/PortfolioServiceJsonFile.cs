@@ -5,7 +5,7 @@ namespace razor2.Services
 {
     public class PortfolioServiceJsonFile
     {
-        public IEnumerable<Portfolio> GetPortfolios()
+        public IEnumerable<Portfolio> GePortfolios()
         {
             return null;
         }
