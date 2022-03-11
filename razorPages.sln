@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numerable", "Numerable\Nume
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "numeratorPractice", "numeratorPractice\numeratorPractice.csproj", "{8E6C5644-3B86-4C7A-8B41-E1AD2AAF6166}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jsontest", "Jsontest\Jsontest.csproj", "{4D7994BE-7CF7-40FC-89B1-A8B04412B7BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{8E6C5644-3B86-4C7A-8B41-E1AD2AAF6166}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E6C5644-3B86-4C7A-8B41-E1AD2AAF6166}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E6C5644-3B86-4C7A-8B41-E1AD2AAF6166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D7994BE-7CF7-40FC-89B1-A8B04412B7BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D7994BE-7CF7-40FC-89B1-A8B04412B7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D7994BE-7CF7-40FC-89B1-A8B04412B7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D7994BE-7CF7-40FC-89B1-A8B04412B7BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
