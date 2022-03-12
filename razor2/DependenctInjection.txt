@@ -1,0 +1,8 @@
+# Only one instance for the whole project
+services.AddSingleton<ISerivice, Service>();
+
+# Instance is created whenever called
+services.AddTransient<ISerivice, Service>();
+
+# One instance for one request 
+services.AddScoped<ISerivice, Service>();
