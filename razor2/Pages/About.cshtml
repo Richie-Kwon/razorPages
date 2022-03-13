@@ -2,16 +2,20 @@
 @model razor2.Pages.about
 @addTagHelper *, Microsoft.aspnetcore.mvc.taghelpers
 @using razor2.Models
+@using razor2.Services
+@inject PortfolioServiceJsonFile PortfolioServiceJsonFile
 
 @{
     Layout = "Shared/_Layout";
     string dog = "Golden doodle";
     var id = int.Parse((string)RouteData.Values["id"]);
-    List<Portfolio> portfolios = new List<Portfolio>()
-    {
-        new Portfolio {Id = 1, Title = "Yes", Description = "Crawl", Image = "https://"},
-        new Portfolio {Id = 2, Title = "North", Description = "Crawl", Image = "https://"}
-    };
+    // List<Portfolio> portfolios = new List<Portfolio>()
+    // {
+    //     new Portfolio {Id = 1, Title = "Yes", Description = "Crawl", Image = "https://"},
+    //     new Portfolio {Id = 2, Title = "North", Description = "Crawl", Image = "https://"}
+    // };
+
+    var portfolios = PortfolioServiceJsonFile.GetPortfolios();
 
 }
 

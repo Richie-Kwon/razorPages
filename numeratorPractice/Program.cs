@@ -39,7 +39,6 @@ namespace numeratorPractice
     {
         private ArrayList ar = new ArrayList();
 
-
         IEnumerator IEnumerable.GetEnumerator()
         {
             return ar.GetEnumerator();
