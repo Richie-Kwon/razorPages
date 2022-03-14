@@ -13,9 +13,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using razor2.Services;
 
-namespace razor2
+namespace ChatSignalIR
 {
     public class Startup
     {
@@ -33,7 +32,6 @@ namespace razor2
                 .AddMicrosoftIdentityWebApp(Configuration.GetSection("AzureAdB2C"));
             services.AddRazorPages()
                 .AddMicrosoftIdentityUI();
-            services.AddTransient<PortfolioServiceJsonFile>();
             services.AddServerSideBlazor();
         }
 

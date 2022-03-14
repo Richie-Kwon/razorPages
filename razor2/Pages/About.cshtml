@@ -4,7 +4,8 @@
 @using razor2.Models
 @using razor2.Services
 @inject PortfolioServiceJsonFile PortfolioServiceJsonFile
-
+@using razor2.Components
+ 
 @{
     Layout = "Shared/_Layout";
     string dog = "Golden doodle";
@@ -30,7 +31,10 @@
 @{if(User.Identity.IsAuthenticated)  
     {<h1>이예라를 이겨라 1, 2, 3! @dog</h1>}
     else{}
-  }  
+}  
+<component type="typeof(PortfolioList)" render-mode="ServerPrerendered"/>
+<script src="_framework/blazor.server.js"></script>
+
 </div>
 </body> 
 </html> 
